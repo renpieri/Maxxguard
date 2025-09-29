@@ -1,0 +1,37 @@
+import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+
+const BannerSwiper = () => {
+  return (
+      <Swiper 
+          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} 
+          spaceBetween={0}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          autoplay={{
+            delay: 4000,       
+            disableOnInteraction: false, 
+          }}
+          speed={1500} 
+          loop={true}
+        >
+          <SwiperSlide>
+            <picture>
+              <source media="(max-width: 639px)" srcSet="/img/banner-4-mobile.webp" />
+              <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/img/banner-4-tablet.webp" />
+              <img className="img-slider" src="/img/banner-4-pc.webp" alt="Banner" />
+            </picture>
+          </SwiperSlide>
+          <SwiperSlide>
+            <picture>
+              <source media="(max-width: 639px)" srcSet="/img/banner-2-mobile.webp" />
+              <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/img/banner-2-tablet.webp" />
+              <img className="img-slider" src="/img/banner-2-pc.webp" alt="Banner" />
+            </picture>
+          </SwiperSlide>
+        </Swiper>
+  )
+}
+
+export default BannerSwiper

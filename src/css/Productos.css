@@ -1,0 +1,196 @@
+.section-products {
+    position: relative;
+    top: -50px;
+    font-family: 'sf-pro-display';
+    margin-top: 20px;
+    color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+.product-name {
+  color: #000000c2;
+}
+
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 27px !important;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #000000c2;
+  text-align: center;
+  font-family: 'Poppins';
+  position: relative; 
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  left: 0;
+  margin: 0 auto;
+  width: 60px;
+  height: 4px;
+  /*background: #37bc9b;
+  background: #F4E3B3;*/
+  background: #bfa754;
+}
+
+.card-producto {
+    border-radius: 10px;
+}
+
+.card-producto-article {
+  width: 100% !important;
+  max-width: unset !important;
+}
+
+.card-armero {
+  border-radius: 5px;
+  position: relative;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .2), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+}
+.card-armero img {
+  border-radius: 5px !important;
+}
+      .envio-pdp-contenedor-home  {
+        position: absolute;
+        top: 12px;
+        right: 11px;
+    }
+       .envio-pdp-contenedor-home p {
+        font-size: 10px !important;
+    }
+
+    .envio-pdp-contenedor-home .envio-icon {
+      height: 20px;
+      width: 20px;
+    }
+.text-card-producto {
+  border-radius: 0 0 10px 10px !important;
+}
+.card-armero{
+  border-radius: 0 0 10px 10px !important;
+}
+.text-card-producto {
+    padding-top: 0 !important;
+    gap: .5em;
+    display: flex;
+    flex-direction: column;
+}
+    .product-name {
+      color: #000000e7 !important;
+    }
+     .text-card-producto p {
+          text-align: center;
+          /* color: white !important; */
+          /* color: #000000cc !important; */
+        }
+
+        .card-armero-a {
+          display: flex;
+          flex-direction: column;
+          gap: .5em;
+        }
+
+
+
+
+.ul-caract-list li {
+      color: #000000e7 !important;
+      text-align: left;
+}
+        .span-precio {
+          margin-left: 3em;
+          font-weight: 400;
+        }
+
+
+
+
+
+
+/* nuevos armeros card */
+.card-armero {
+  width: 320px !important;
+  max-width: 320px;
+}
+.card-armero .card-armero-a img {
+  width: 320px !important;
+  max-width: 320px;
+} 
+.text-card-producto {
+  width: 320px !important;
+}
+.card-armero-a-precio-btn {
+  background: #bfa754;  
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: .3em;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ul-caract-list {
+  align-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: .3em 1em;
+  justify-content: center; 
+  padding: 0;
+  margin: 0 auto;
+}
+.ul-caract-list li {
+  font-size: 14px !important;
+}
+.ul-caract-list li::before {
+    content: "· ";
+    font-weight: 700;
+}
+
+@media screen and (max-width:1200px) and (min-width:1023px){
+  .section-card-productos {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+
+@media screen and (max-width:1023px){
+  .section-products {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:767px) {
+        .card-armero, .card-armero img {
+          width: 320px !important;
+          height: auto !important;
+        }
+        .flex-icon-title {
+          justify-content: center;
+        }
+        .item-text {
+          text-align: center !important;
+        }
+        .text-card-producto {
+          width: 100% !important;
+        }
+        .text-card-producto p {
+          text-align: center;
+        }
+        .section-card-productos {
+          row-gap: 4em !important;
+        }
+}
+
+@media screen and (max-width:640px){
+        .section-title {
+            font-size: 23px !important;
+        }
+        
+  }

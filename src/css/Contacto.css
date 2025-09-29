@@ -1,0 +1,211 @@
+.section-contacto {
+    max-width: 1300px;
+    margin: 7em auto;
+    padding-top: 0;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    font-family: 'Poppins';
+    z-index: 0 !important;
+    margin-top: 3em;
+}
+
+.section-contacto  hr {
+    max-width: 800px;
+    margin-top: 0;
+}
+
+.title-contacto {
+    color: #bfa654;
+    margin-bottom: 2rem;
+}
+
+.contenedor-contacto-info {
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.contacto-info-flex {
+    justify-content: center;
+}
+.icon-contacto {
+    height: 50px;
+}
+.icon-contacto svg {
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.contacto-info p {
+    margin-bottom: 3em;
+    font-size: 15px !important;
+}
+
+.contacto-info-flex-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.contacto-info-flex { 
+flex-direction: column;
+}
+.icon-contacto {
+    width: 55px !important;
+    height: 55px !important;
+}
+.contenedor-redes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.icon-info-title {
+        font-weight: 500 !important;
+    }
+@media screen and (max-width:1280px) {
+    .wrapper-contacto {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1150px) { 
+    
+    .contacto-info-flex {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .icon-contacto {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 !important;
+    }
+    .section-contacto {
+        padding-bottom: 0;
+    }
+    .section-contacto  hr {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width:1150px) { 
+    .contenedor-redes {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        padding: 0;
+    } 
+    .contacto-info p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section-contacto {
+        margin-top: 30px;
+        padding: 0 1em;
+    }
+    .contacto-info-flex a { 
+        display: flex;
+        align-items: center;
+    }
+    .contacto-info-flex {
+        flex-direction: row !important;
+        gap: 1em;
+    }
+    .contacto-info-flex-item {
+        padding: 1em .5em .5em .5em !important;
+        margin-bottom: 0 !important;
+    }
+
+       .contacto-info-flex-item p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-contacto  hr {
+        margin-top: 1em;
+    }
+    .section-contacto {
+        margin-bottom: 1em;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .contacto-info p {
+        font-size: 13px !important;
+        text-align: center;
+    }
+    .title-contacto {
+        text-align: center;
+    }
+    .icon-contacto {
+        width: 35px !important;
+        height: 35px !important;
+        margin-right: 0;
+    }
+
+    .icon-contacto svg {
+        width: 35px !important;
+        height: 35px !important;
+        margin-right: 0;
+    }
+     .icon-info-title {
+        font-size: 15px !important;
+        margin: 0;
+    }
+
+    .icon-info-text {
+        font-size: 14px;
+    }
+    .contacto-info-flex a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contacto-info-flex {
+        align-items: center;
+    }
+   
+
+    .contacto-info p {
+        margin: 1.5em auto;
+    }
+
+     .contacto-info-flex-item {
+        max-width: 230px !important;
+        padding: 1em;
+        border-radius: 5px;
+        --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+    .icon-info-text {
+        font-size: 12px !important;
+    }
+      .contacto-info-flex-item {
+        padding: 1em .5em .5em .5em !important;
+        width: 100px !important;
+    }
+
+    .contacto-info-flex-item a {
+        width: 94px !important;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+     .contacto-info .title-contacto,
+    .contacto-info p {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .contacto-info {
+        margin-bottom: 1em;
+    }
+}

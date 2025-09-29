@@ -1,0 +1,283 @@
+.section-quienesomos {
+    font-family: 'sf-pro-display';
+    margin-bottom: 50px;
+    margin: 4em auto;
+
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 27px !important;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #000000c2;
+    text-align: center;
+    font-family: 'Poppins';
+    position: relative; 
+    padding: 0 1em;
+}
+
+
+
+.contenedor-quienes-somos {
+    max-width: 1300px;
+    margin: auto;
+    font-family: 'Poppins';
+}
+.servicio {
+    color: #bfa754;
+    width: 65px;
+    height: 65px;
+}
+.section-info-cards { 
+    max-width: 1300px;
+    margin: auto;
+}
+.section-info-cards-div {
+    max-width: unset;
+}
+  .div-logo-item {
+            position: unset !important;
+        }
+
+     .flex-icon-title {
+            display: flex;
+            align-items: center;
+            gap: .5em;
+        }
+        .flex-icon-title p {
+            font-weight: 500 !important;
+        }
+        .flex-1 {
+            padding: 1.5em;
+            border-radius: 5px;
+        }
+        .item-text {
+            font-size: 15px;
+        }
+        .flex-icon-title p {
+            margin: 0 !important;
+        }
+        .item-text {
+            margin-left: 0 !important;
+        }
+    @media screen and (max-width:1023px){ 
+        .section-quienesomos {
+            margin-top: 30px;
+            margin-bottom: 60px !important;
+        }
+        .img-1 {
+            padding: 1 !important;
+        }
+   
+        .div-logo-item {
+            position: unset !important;
+        }
+        .flex-icon-title p {
+            margin: 0 !important;
+        }
+        .item-text {
+            margin-left: 0 !important;
+        }
+        .container-text-item {
+            padding: 0 !important;
+        }
+        .flex-1 {
+            max-width: 600px;
+            margin: auto;
+        }
+        .container-text-item {
+            flex-direction: column;
+        }
+        .img-quienes-somos {
+            max-width: 600px !important;
+        }
+        .quienes-somos-principal-text-container {
+            max-width: 600px;
+            margin: auto;
+        }
+    }
+    @media screen and (max-width:700px) {
+        .img-quienes-somos {
+            max-width: 600px !important;
+        }
+    }
+
+
+    @media screen and (max-width:640px){
+        .section-title {
+            font-size: 23px !important;
+        }
+        
+        .section-quienesomos .section-title {
+            max-width: 360px;
+            margin: auto;
+            padding: 0;
+            margin-bottom: 1.5em;
+        }
+
+        .img-quienes-somos {
+            max-width: 360px !important;
+        }
+        .quienes-somos-principal-text  {
+            padding: 0 1em !important;
+        }
+        .quienes-somos-principal-text p, .flex-icon-title dd, .item-text {
+            font-size: 13px;
+        }
+        .cards-info {
+            padding-top: 0 !important;
+        }
+        .section-info-cards {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+
+        .flex-1 {
+            max-width: 360px;
+            margin: auto;
+        }
+        .img-quienes-somos {
+            max-width: 360px !important;
+            max-height: 337px !important;
+        }
+        .quienes-somos-principal-text-container {
+            max-width: 360px;
+            margin: auto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    /* NUEVO QUIENES SOMOS */
+
+    .contenedor-quienes-somos {
+        margin: 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        width: 100%;
+        max-width: unset;
+        background: url('/img/2.webp');
+    }
+    .quienes-somos-principal-text-container {
+        padding: 50px;
+    }
+    .quienes-somos-principal-text {
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        backdrop-filter: blur(22.5px);
+        background-color: rgba(0, 0, 0, .6);
+        color: var(--text_w_2);
+        padding: 5%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .quienes-somos-principal-text h2, .quienes-somos-principal-text p {
+        color: white;
+    }
+    .quienes-somos-principal-text h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-subtitle {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 50px 0 0 0;
+        color: #000000c2;
+        text-align: center;
+        font-family: 'Poppins';
+        position: relative; 
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .section-subtitle::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        left: 0;
+        margin: 0 auto;
+        width: 60px;
+        height: 4px;
+        background: #bfa754;
+}
+    .section-title-text {
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 5px;
+        color: #000000c2;
+        text-align: center;
+        font-family: 'Poppins';
+        position: relative; 
+        padding: 0 1em;
+        text-transform: uppercase;
+}
+.section-text {
+    font-size: 15px;
+}
+       @media screen and (max-width:1023px){
+        .img-text-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       }
+
+
+       @media screen and (max-width:640px){
+        .section-subtitle {
+            font: 21px;
+        }
+         .section-quienesomos .section-subtitle {
+            max-width: 360px;
+            margin: auto;
+            padding: 0;
+            margin-bottom: 1.5em;
+        }
+        .section-title-text {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .quienes-somos-principal-text p {
+        font-size: 12px;
+     }
+     .quienes-somos-principal-text {
+        padding: 1em !important;
+    gap: 0;
+     }
+     .contenedor-quienes-somos-div {
+        height: 424px;
+    display: flex;
+    align-items: center;
+     }
+     .quienes-somos-principal-text-container {
+            max-width: 360px;
+    padding: 0;
+     }
+
+     .section-subtitle {
+        margin-top: 50px !important;
+     }
+       }
+
+    
