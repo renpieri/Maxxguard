@@ -55,12 +55,45 @@
     padding: .5em 0;
     padding: .5em .5em;
     max-width: 229px;
-    background: rgba(36, 252, 36, 0.521);
     background: #bfa754;
     border-radius: 5px;
     color: white;
 }
 
+
+
+.compra-pdp-cucarda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: .5em 0;
+    padding: .5em .5em;
+    max-width: 229px;
+    background: #bfa754;
+    border-radius: 5px;
+    color: white;
+}
+
+.compra-pdp-contenedor {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    gap: 10px;
+    padding: .5em 0;
+    padding: .5em .5em;
+    max-width: 229px;
+    background: #bfa754;
+    border-radius: 5px;
+    color: white;
+}
+
+.compra-pdp-contenedor:hover {
+    background: #a88e3c;
+    transition: background-color 0.3s ease;
+}
+
+.compra-pdp-btn a {
+    font-size: 13px;
+}
 .envio-icon {
     height: 30px;
     width: 30px;
@@ -155,11 +188,9 @@
 .flecha-atras:hover {
   transform: translateX(-10px);
 }
-  .e-c-pdp-bot {
-        display: block !important;
-    }
+
     .e-c-pdp-top {
-        display: none !important;
+       display: block !important;
     }
 
 
@@ -216,7 +247,33 @@
     margin-top: 1.2em !important;
     padding-left: 0 !important;
 }
-@media screen and (max-width: 1280px) {
+
+
+    .envio-pdp-contenedor  {
+        position: absolute;
+        top: 12px;
+        right: 11px;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+    }
+     .contenedor-img-pdp {
+        position: relative;
+    }
+    .envio-pdp-cucarda p {
+        font-size: 10px;
+    }
+    .envio-icon {
+        width: 25px;
+        height: 25px;
+    }
+@media screen and (max-width: 1279px) {
+
+    .compra-pdp-contenedor {
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
     .pdp-wpp-img { 
     width: 30px;
@@ -261,25 +318,15 @@
         justify-content: center;
         align-items: center;
     }
-    .envio-pdp-contenedor {
-        display: flex;
-        justify-content: center;
-        z-index: 1;
-    }
+  
 
     .ul-redes-footer {
         justify-content: center;
     }
     
- .contenedor-img-pdp {
-        position: relative;
-    }
 
-    .envio-pdp-contenedor  {
-        position: absolute;
-        top: 12px;
-        right: 11px;
-    }
+
+
     .envio-pdp-cucarda {
         gap: 2px !important;
     }
@@ -289,9 +336,6 @@
     .envio-icon {
         height: 18px !important;
         width: 18px !important;
-    }
-    .e-c-pdp-bot {
-        display: none !important;
     }
     .e-c-pdp-top {
         display: block !important;

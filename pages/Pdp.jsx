@@ -139,15 +139,30 @@ const Pdp = () => {
          
               
             <h2 className="mb-2 producto-title-pdp">{producto.name}</h2>
-            <p className="precio-producto-pdp"> ${producto.precio} </p>
+            <p className="precio-producto-pdp"> USD - {producto.precio} </p>
           
 
 
                 {/* Footer */}
+                
             <div className="div-redes-pdp-bottom">
-              <hr className="mb-2 border-gray-300 sm:mx-auto lg:my-8 m-auto hr-pdp" />
+           
               <div className="footer-div div-pdp-redes w-full max-w-screen-xl mx-auto">
-                <h3 className="footer-h3 mb-4">Comunicate con nosotros para pedirlo</h3>
+
+                
+          
+
+              <div className="compra-pdp-contenedor">
+                <div className="compra-pdp-btn">
+                    <a href={`https://wa.me/541124903366?text=${encodeURIComponent(`Hola, estoy interesado en el armero ${producto.name}`)}`} target="_blank" rel="noopener noreferrer">
+                    CONSULTANOS POR ESTE ARMERO
+                  </a>
+                </div>
+              </div> 
+
+<h3 className="footer-h3 mb-4">
+                  Comunicate con nosotros
+                </h3>
                 <div className="footer-img-redes">
                   <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">
                     <li>
@@ -215,17 +230,22 @@ const Pdp = () => {
             <div>
             </div>
 
-            <div className="envio-pdp-contenedor e-c-pdp-bot">
-              <div className="envio-pdp-cucarda">
-                <LiaShippingFastSolid className="envio-icon" />
-                <p>ENVÍO A TODO EL PAÍS</p>
-              </div>
-            </div>
+           
+
+           
 
             <div className="div-redes-pdp-top">
               <div className="div-comunicate-redes-pdp w-full max-w-screen-xl mx-auto">
-                <h3 className="footer-h3 mb-4">
-                  Comunicate con nosotros para pedirlo
+                    <div className="compra-pdp-contenedor">
+                <div className="compra-pdp-btn">
+                    <a href={`https://wa.me/541124903366?text=${encodeURIComponent(`Hola, estoy interesado en el armero ${producto.name}`)}`} target="_blank" rel="noopener noreferrer">
+                    CONSULTANOS POR ESTE ARMERO
+                  </a>
+                </div>
+              </div> 
+
+              <h3 className="footer-h3 mb-4">
+                  Comunicate con nosotros por nuestras redes
                 </h3>
                 <div className="footer-img-redes">
                   <ul className="ul-redes-footer flex flex-wrap items-center text-sm font-medium">

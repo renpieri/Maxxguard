@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "M-1012",
-    "precio": "840.000",
+    "precio": "560",
     "medidas": {
       "alto": "510mm",
       "ancho": "360mm",
@@ -53,7 +53,7 @@
   {
     "id": 2,
     "name": "M-1005",
-    "precio": "840.000",
+    "precio": "560",
     "medidas": {
       "alto": "1400mm",
       "ancho": "330mm",
@@ -103,7 +103,7 @@
   {
     "id": 3,
     "name": "M-1014",
-    "precio": "1.880.000",
+    "precio": "1255",
     "medidas": {
       "alto": "1400mm",
       "ancho": "510mm",
@@ -157,7 +157,7 @@
   {
     "id": 4,
     "name": "M-1014CE",
-    "precio": "2.030.000",
+    "precio": "1350",
     "medidas": {
       "alto": "1400mm",
       "ancho": "510mm",
@@ -211,7 +211,7 @@
   {
     "id": 5,
     "name": "M-1022",
-    "precio": "3.375.000",
+    "precio": "2250",
     "medidas": {
       "alto": "1500mm",
       "ancho": "660mm",
@@ -265,7 +265,7 @@
   {
     "id": 6,
     "name": "M-1040",
-    "precio": "6.075.000",
+    "precio": "4050",
     "medidas": {
       "alto": "1500mm",
       "ancho": "1000mm",
@@ -319,7 +319,7 @@
   {
     "id": 7,
     "name": "M-1056",
-    "precio": "7.465.000",
+    "precio": "4795",
     "medidas": {
       "alto": "1800mm",
       "ancho": "1070mm",
