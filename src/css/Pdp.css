@@ -195,12 +195,12 @@
 
 
 
-.title-descrition {
+.title-description {
     font-weight: 600;
     font-size: 25px;
     margin-bottom: .5em;
 }
-.title-descrition-spec {
+.title-description-spec {
     font-weight: 600;
     font-size: 19px;
     margin: 1em 0 .3em 0;
@@ -298,10 +298,10 @@
     }
 
     .porducto-title-pdp, 
-    .title-descrition, 
+    .title-description, 
     .descrition-text, 
-    .title-descrition,
-    .title-descrition-spec,
+    .title-description,
+    .title-description-spec,
     .info-detallada-general ul li,
     .footer-h3,
     .precio-producto-pdp {
@@ -393,10 +393,10 @@
     .porducto-title-pdp {
         font-size: 26px;
     }
-    .title-descrition {
+    .title-description {
         font-size: 20px;
     }
-    .title-descrition-spec {
+    .title-description-spec {
         font-size: 17px;
     }
     .descrition-text, .div-medidas-pdp ul li {
@@ -447,7 +447,7 @@
       .list-circle li {
         font-size: 16px !important;
     }
-    .title-descrition  {
+    .title-description  {
         font-size: 18px !important;
     }
     .precio-producto-pdp {

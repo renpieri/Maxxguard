@@ -139,7 +139,7 @@ const Pdp = () => {
          
               
             <h2 className="mb-2 producto-title-pdp">{producto.name}</h2>
-            <p className="precio-producto-pdp"> USD - {producto.precio} </p>
+            {/* <p className="precio-producto-pdp"> USD - {producto.precio} </p> */}
           
 
 
@@ -209,11 +209,11 @@ const Pdp = () => {
             <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800 hr-pdp-top" />
 
             <div className="div-descripcion-pdp">
-              <h3 className="mb-2 title-descrition">Caracteristicas generales</h3>
+              <h3 className="mb-2 title-description">Caracteristicas generales</h3>
               <p className=" mb-6 descrition-text">{producto.descripcion}</p>
             </div>
             <div className="div-medidas-pdp">
-              <h3 className="text-lg font-semibold mb-2 text-medidas title-descrition">
+              <h3 className="mb-2 text-medidas title-description">
                 Medidas:
               </h3>
               <ul className="list-disc list-inside list-none">
@@ -292,12 +292,12 @@ const Pdp = () => {
 
         {/* Info detallada */}
         <div className="info-detallada-general">
-          <h3 className="title-descrition text-center">Información detallada:</h3>
+          <h3 className="title-description text-center">Información detallada:</h3>
           <div className="contenedor-specs">
             <div className="div-list-specs">
               {Array.isArray(producto.generales.especificaciones) && (
                 <>
-                  <h4 className="title-descrition-spec">Especificaciones:</h4>
+                  <h4 className="title-description-spec">Especificaciones:</h4>
                   <ul className="list-circle">
                     {producto.generales.especificaciones.map((item, index) => (
                       <li key={index}>{item}</li>
@@ -307,7 +307,7 @@ const Pdp = () => {
               )}
               {Array.isArray(producto.generales.puerta) && (
                 <>
-                  <h4 className="title-descrition-spec">Seguridad de la puerta:</h4>
+                  <h4 className="title-description-spec">Seguridad de la puerta:</h4>
                   <ul className="list-circle">
                     {producto.generales.puerta.map((item, index) => (
                       <li key={index}>{item}</li>
@@ -319,7 +319,7 @@ const Pdp = () => {
             <div className="div-list-specs">
               {Array.isArray(producto.generales.cuerpo) && (
                 <>
-                  <h4 className="title-descrition-spec">Seguridad del cuerpo:</h4>
+                  <h4 className="title-description-spec">Seguridad del cuerpo:</h4>
                   <ul className="list-circle">
                     {producto.generales.cuerpo.map((item, index) => (
                       <li key={index}>{item}</li>
@@ -330,7 +330,7 @@ const Pdp = () => {
               {Array.isArray(producto.generales.fuego) &&
                 producto.generales.fuego.length > 0 && (
                   <>
-                    <h4 className="title-descrition-spec">Resistencia al fuego:</h4>
+                    <h4 className="title-description-spec">Resistencia al fuego:</h4>
                     <ul className="list-circle">
                       {producto.generales.fuego.map((item, index) => (
                         <li key={index}>{item}</li>
@@ -340,7 +340,7 @@ const Pdp = () => {
                 )}
               {Array.isArray(producto.generales.exterior) && (
                 <>
-                  <h4 className="title-descrition-spec">Exterior:</h4>
+                  <h4 className="title-description-spec">Exterior:</h4>
                   <ul className="list-circle">
                     {producto.generales.exterior.map((item, index) => (
                       <li key={index}>{item}</li>
