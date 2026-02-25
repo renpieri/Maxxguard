@@ -18,9 +18,9 @@ const BannerSwiper = () => {
         >
           <SwiperSlide>
             <picture>
-              <source media="(max-width: 639px)" srcSet="/img/banner-4-mobile.webp" />
-              <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/img/banner-4-tablet.webp" />
-              <img className="img-slider" src="/img/banner-4-pc.webp" alt="Banner" />
+              <source media="(max-width: 639px)" srcSet="/img/banner-4-mobile.png" />
+              <source media="(max-width: 1023px) and (min-width: 640px)" srcSet="/img/banner-4-tablet.png" />
+              <img className="img-slider" src="/img/banner-4-pc.png" alt="Banner" />
             </picture>
           </SwiperSlide>
           <SwiperSlide>

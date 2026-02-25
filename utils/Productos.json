@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "M-1012",
-    "precio": "560",
+    "precio": "580",
     "medidas": {
       "alto": "510mm",
       "ancho": "360mm",
@@ -53,7 +53,7 @@
   {
     "id": 2,
     "name": "M-1005",
-    "precio": "560",
+    "precio": "580",
     "medidas": {
       "alto": "1400mm",
       "ancho": "330mm",
@@ -103,7 +103,7 @@
   {
     "id": 3,
     "name": "M-1014",
-    "precio": "1255",
+    "precio": "1320",
     "medidas": {
       "alto": "1400mm",
       "ancho": "510mm",
@@ -157,7 +157,7 @@
   {
     "id": 4,
     "name": "M-1014CE",
-    "precio": "1350",
+    "precio": "1450",
     "medidas": {
       "alto": "1400mm",
       "ancho": "510mm",
@@ -211,7 +211,7 @@
   {
     "id": 5,
     "name": "M-1022",
-    "precio": "2250",
+    "precio": "2400",
     "medidas": {
       "alto": "1500mm",
       "ancho": "660mm",

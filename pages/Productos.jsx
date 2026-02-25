@@ -31,7 +31,7 @@ const Productos = () => {
                   <div className="px-4 py-3 w-72 text-card-producto">
                     <p className="text-lg font-bold truncate block capitalize product-name">
                       {producto.name}
-                      {/* <span className='span-precio'> ${producto.precio} </span> */}
+                      <span className='span-precio'> USD {producto.precio} </span>
                     </p>
                     <div>
                       <ul className='ul-caract-list'>

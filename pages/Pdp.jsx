@@ -139,7 +139,7 @@ const Pdp = () => {
          
               
             <h2 className="mb-2 producto-title-pdp">{producto.name}</h2>
-            {/* <p className="precio-producto-pdp"> USD - {producto.precio} </p> */}
+            <p className="precio-producto-pdp"> USD - {producto.precio} </p>
           
 
 
