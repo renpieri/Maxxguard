@@ -102,6 +102,111 @@
 
   {
     "id": 3,
+    "name": "M-1008",
+    "precio": "730",
+    "medidas": {
+      "alto": "1450mm",
+      "ancho": "400mm",
+      "profundidad": "350mm",
+      "peso": "45kg"
+    },
+    "descripcion": "Armero con capacidad máxima de 8 armas largas, incorporando además un estante móvil. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+
+    "img": [
+      "M-1008/M-1008-1.jpg",
+      "M-1008/M-1008-3.jpg",
+      "M-1008/M-1008-4.jpg",
+      "M-1008/M-1008-5.jpg",
+      "M-1008/M-1008-6.jpg",
+      "M-1008/M-1008-7.jpg"
+    ],
+    "spec": [
+      "8 Armas Largas",
+      "Peso: kg",
+      "Cerradura Electrónica",
+      "1450*400mm"
+    ],
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 8 armas largas",
+        "Alto: 1450mm - Ancho: 400mm - Profundidad: 350mm",
+        "Peso: kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 3mm",
+        "Cerradura electrónica + llave de emergencia",
+        "3 pernos de seguridad de 20mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Capacidad para 8 armas largas",
+        "Estante móvil"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "M-1008CE",
+    "precio": "790",
+    "medidas": {
+      "alto": "1450mm",
+      "ancho": "400mm",
+      "profundidad": "350mm",
+      "peso": "47kg"
+    },
+    "descripcion": "Armero con capacidad máxima de 3 armas largas, incorporando además estantes laterales para armas cortas, municiones u otros accesorios Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+
+    "img": [
+      "M-1008CE/M-1008CE-1.jpg",
+      "M-1008CE/M-1008CE-3.jpg",
+      "M-1008CE/M-1008CE-4.jpg",
+      "M-1008CE/M-1008CE-5.jpg",
+      "M-1008CE/M-1008CE-6.jpg",
+      "M-1008CE/M-1008CE-7.jpg"
+    ],
+    "spec": [
+      "3 Armas Largas",
+      "Peso: kg",
+      "Cerradura Electrónica",
+      "1450*400mm"
+    ],
+    "generales": {
+      "especificaciones": [
+        "Capacidad para 3 armas largas",
+        "Alto: 1450mm - Ancho: 400mm - Profundidad: 350mm",
+        "Peso: kg"
+      ],
+      "puerta": [
+        "Espesor del acero: 3mm",
+        "Cerradura electrónica + llave de emergencia",
+        "3 pernos de seguridad de 20mm"
+      ],
+      "cuerpo": [
+        "Espesor del acero: 2mm",
+        "Capacidad para 3 armas largas",
+        "Estante móvil",
+        "Estantes laterales"
+      ],
+      "fuego": [
+        "30 minutos 650°C",
+        "Sellado contra humo frío"
+      ],
+      "exterior": [
+        "Color negro"
+      ]
+    }
+  },
+
+  {
+    "id": 5,
     "name": "M-1014",
     "precio": "1320",
     "medidas": {
@@ -155,7 +260,7 @@
   },
 
   {
-    "id": 4,
+    "id": 6,
     "name": "M-1014CE",
     "precio": "1450",
     "medidas": {
@@ -209,7 +314,7 @@
   },
 
   {
-    "id": 5,
+    "id": 7,
     "name": "M-1022",
     "precio": "2400",
     "medidas": {
@@ -263,7 +368,7 @@
   },
 
   {
-    "id": 6,
+    "id": 8,
     "name": "M-1040",
     "precio": "4050",
     "medidas": {
@@ -317,7 +422,7 @@
   },
 
   {
-    "id": 7,
+    "id": 9,
     "name": "M-1056",
     "precio": "4795",
     "medidas": {
@@ -359,111 +464,6 @@
         "Capacidad para 56 armas largas y 8 armas cortas",
         "6 estanterías ajustables",
         "Interior alfombrado"
-      ],
-      "fuego": [
-        "30 minutos 650°C",
-        "Sellado contra humo frío"
-      ],
-      "exterior": [
-        "Color negro"
-      ]
-    }
-  },
-
-  {
-    "id": 8,
-    "name": "M-1008",
-    "precio": "730",
-    "medidas": {
-      "alto": "1450mm",
-      "ancho": "400mm",
-      "profundidad": "350mm",
-      "peso": "kg"
-    },
-    "descripcion": "Armero con capacidad máxima de 8 armas largas, incorporando además un estante móvil. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
-
-    "img": [
-      "M-1008/M-1008-1.jpg",
-      "M-1008/M-1008-3.jpg",
-      "M-1008/M-1008-4.jpg",
-      "M-1008/M-1008-5.jpg",
-      "M-1008/M-1008-6.jpg",
-      "M-1008/M-1008-7.jpg"
-    ],
-    "spec": [
-      "8 Armas Largas",
-      "Peso: kg",
-      "Cerradura Electrónica",
-      "1450*400mm"
-    ],
-    "generales": {
-      "especificaciones": [
-        "Capacidad para 8 armas largas",
-        "Alto: 1450mm - Ancho: 400mm - Profundidad: 350mm",
-        "Peso: kg"
-      ],
-      "puerta": [
-        "Espesor del acero: 3mm",
-        "Cerradura electrónica + llave de emergencia",
-        "3 pernos de seguridad de 20mm"
-      ],
-      "cuerpo": [
-        "Espesor del acero: 2mm",
-        "Capacidad para 8 armas largas",
-        "Estante móvil"
-      ],
-      "fuego": [
-        "30 minutos 650°C",
-        "Sellado contra humo frío"
-      ],
-      "exterior": [
-        "Color negro"
-      ]
-    }
-  },
-
-  {
-    "id": 9,
-    "name": "M-1008CE",
-    "precio": "790",
-    "medidas": {
-      "alto": "1450mm",
-      "ancho": "400mm",
-      "profundidad": "350mm",
-      "peso": "kg"
-    },
-    "descripcion": "Armero con capacidad máxima de 3 armas largas, incorporando además estantes laterales para armas cortas, municiones u otros accesorios Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
-
-    "img": [
-      "M-1008CE/M-1008CE-1.jpg",
-      "M-1008CE/M-1008CE-3.jpg",
-      "M-1008CE/M-1008CE-4.jpg",
-      "M-1008CE/M-1008CE-5.jpg",
-      "M-1008CE/M-1008CE-6.jpg",
-      "M-1008CE/M-1008CE-7.jpg"
-    ],
-    "spec": [
-      "3 Armas Largas",
-      "Peso: kg",
-      "Cerradura Electrónica",
-      "1450*400mm"
-    ],
-    "generales": {
-      "especificaciones": [
-        "Capacidad para 3 armas largas",
-        "Alto: 1450mm - Ancho: 400mm - Profundidad: 350mm",
-        "Peso: kg"
-      ],
-      "puerta": [
-        "Espesor del acero: 3mm",
-        "Cerradura electrónica + llave de emergencia",
-        "3 pernos de seguridad de 20mm"
-      ],
-      "cuerpo": [
-        "Espesor del acero: 2mm",
-        "Capacidad para 3 armas largas",
-        "Estante móvil",
-        "Estantes laterales"
       ],
       "fuego": [
         "30 minutos 650°C",
