@@ -103,6 +103,8 @@
     width: 40px;
     height: 42px;
     padding: 0;
+    background: none;
+    color:#bfa754;
     }
 
 .producto-title-pdp {
@@ -381,6 +383,8 @@
         margin-bottom: 0;
         padding-bottom: 0;
         margin-top: .2em !important;
+        width: 20px;
+        height: 20px;
     }
     .btn-atras-pdp {
         margin-bottom: 0;

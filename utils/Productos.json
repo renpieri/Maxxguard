@@ -62,12 +62,12 @@
     },
     "descripcion": "Este armero tiene capacidad máxima de 5 armas largas, incorporando además un compartimento adicional para municiones. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
     "img": [
-      "M-1005/M-1005-1-color.webp",
-      "M-1005/M-1005-2-color.webp",
-      "M-1005/M-1005-3-color.webp",
-      "M-1005/M-1005-4-color.webp",
-      "M-1005/M-1005-5-color.webp",
-      "M-1005/M-1005-6-color.webp"
+      "M-1005/b/M-1005b-1-color.webp",
+      "M-1005/b/M-1005b-2-color.webp",
+      "M-1005/b/M-1005b-3-color.webp",
+      "M-1005/b/M-1005b-4-color.webp",
+      "M-1005/b/M-1005b-5-color.webp",
+      "M-1005/b/M-1005b-6-color.webp"
     ],
     "spec": [
       "5 Armas Largas",
@@ -110,7 +110,7 @@
       "profundidad": "350mm",
       "peso": "45kg"
     },
-    "descripcion": "Armero con capacidad máxima de 8 armas largas, incorporando además un estante móvil. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Armero con capacidad máxima de 8 armas largas, incorporando además un estante móvil. Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
 
     "img": [
       "M-1008/M-1008-1.jpg",
@@ -142,10 +142,7 @@
         "Capacidad para 8 armas largas",
         "Estante móvil"
       ],
-      "fuego": [
-        "30 minutos 650°C",
-        "Sellado contra humo frío"
-      ],
+      "fuego": false,
       "exterior": [
         "Color negro"
       ]
@@ -162,7 +159,7 @@
       "profundidad": "350mm",
       "peso": "47kg"
     },
-    "descripcion": "Armero con capacidad máxima de 3 armas largas, incorporando además estantes laterales para armas cortas, municiones u otros accesorios Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre. Está equipado con cerradura electrónica y llaves de emergencia, y ofrece protección contra el fuego durante 30 minutos a 650°C.",
+    "descripcion": "Armero con capacidad máxima de 3 armas largas, incorporando además estantes laterales para armas cortas, municiones u otros accesorios Está fabricado en acero de bajo carbono de uso estructural con un espesor de 3mm en la puerta y 2mm en el cuerpo, ofreciendo un equilibrio entre solidez y peso. Está diseñado para brindar resistencia y seguridad. Cuenta con un sistema de cierre de 3 pernos de seguridad de 20mm de diámetro, accionados mediante una manija en forma de L que facilita la apertura y el cierre.",
 
     "img": [
       "M-1008CE/M-1008CE-1.jpg",
@@ -195,10 +192,7 @@
         "Estante móvil",
         "Estantes laterales"
       ],
-      "fuego": [
-        "30 minutos 650°C",
-        "Sellado contra humo frío"
-      ],
+      "fuego": false,
       "exterior": [
         "Color negro"
       ]

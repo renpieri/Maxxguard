@@ -90,7 +90,7 @@ const Pdp = () => {
             <div className="relative w-full">
               {/* Flecha izquierda */}
               <button
-                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition flecha-no-modal"
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white text-2xl p-2 rounded-full transition flecha-no-modal"
                 onClick={handlePrev}
               >
                 ❮
@@ -105,14 +105,14 @@ const Pdp = () => {
 
               {/* Flecha derecha */}
               <button
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white text-2xl p-2 rounded-full hover:bg-opacity-70 transition hover:text-amber-200 flecha-no-modal"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white text-2xl p-2 rounded-full transition hover:text-amber-200 flecha-no-modal"
                 onClick={handleNext}
               >
                 ❯
               </button>
             </div>
 
-            {/* Thumbnails */}
+            
             <div className="flex gap-4 py-4 justify-center overflow-x-auto">
               {producto.img.map((src, index) => (
                 <img
